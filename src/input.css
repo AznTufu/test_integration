@@ -18,7 +18,7 @@ section {
 }
 
 #homeBg {
-    background-image: url(/public/Sources/perspective.jpg);
+    background-image: url(../public/Sources/perspective.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
