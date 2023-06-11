@@ -18,10 +18,17 @@
     <!-- TOP section  -->
     <section class="max-w-[1600px] w-full desktop:pl-[90px] laptop:pl-[80px] pc:pl-[50px] relative">
         <div class="flex pc:flex-row flex-col-reverse justify-between w-full">
-            <div class="flex pc:flex-col flex-row pc:justify-start justify-between desktop:pt-8 laptop:pt-7 pc:pt-6 tablet:pt-4 pc:mr-[40px] laptop:w-[400px] pc:w-[450px] pc:px-0 tablet:px-[30px] px-[15px]">
+            <div 
+                class="flex pc:flex-col tablet:flex-row flex-col pc:justify-start justify-between 
+                desktop:pt-8 laptop:pt-7 pc:pt-6 tablet:pt-4 pc:mr-[40px] 
+                laptop:w-[400px] pc:w-[450px] pc:px-0 tablet:px-[30px] px-[15px]"
+                >
                 <img src="Sources/logo.svg" alt="logo" class="hidden pc:block laptop:w-[198px] pc:w-[150px] h-[79px]">
-                <div class="flex flex-col items-start desktop:mt-[115px] laptop:mt-[90px] pc:mt-[60px] mb-[10px] pc:gap-0 gap-4">
-                    <h1 class="text-darkBlue font-semibold desktop:text-48 laptop:text-38 pc:text-36 text-32 pc:leading-normal leading-none">
+                <div 
+                    class="flex flex-col items-start 
+                    desktop:mt-[115px] laptop:mt-[90px] pc:mt-[40px] tablet:mt-0 mt-[30px] mb-[10px] pc:gap-0 gap-4"
+                    >
+                    <h1 class="text-darkBlue font-semibold desktop:text-48 laptop:text-38 pc:text-36 tablet:text-32 text-32 pc:leading-normal leading-none">
                         Villemomble (93)
                     </h1>
                     <div class="flex flex-row justify-center items-center gap-[9px] w-[241px] h-[42px] rounded-[21px] bg-[#fff7f7]">
@@ -29,21 +36,22 @@
                         <h3 class="text-16 text-red font-bold leading-none">85, Boulevard d'Aulnay</h3>
                     </div>
                 </div>
-                <div class="flex flex-col pc:items-start items-end desktop:mt-[118px] laptop:mt-[90px] pc:mt-[60px]">
-                    <h2 class="text-darkBlue font-bold mb-[18px] leading-none desktop:text-32 laptop:text-28 pc:text-26 text-24">
+                <div class="flex flex-col pc:items-start tablet:items-end items-start desktop:mt-[118px] laptop:mt-[90px] pc:mt-[60px] tablet:mt-0 mt-[30px]">
+                    <h2 class="text-darkBlue font-bold mb-[28px] leading-none desktop:text-32 laptop:text-28 pc:text-26 text-24">
                         Du studio au 4 pièces
                     </h2>
                     <div 
-                        class="flex items-center justify-center h-[84px] bg-red relative
-                        desktop:w-[258px] laptop:w-[230px] pc:w-[200px] w-[200px] pc:mr-0 mr-[10px]"
+                        class="flex items-center justify-center h-[84px] relative border-darkBlue border-2 hover:border-[1px] border-solid ml-[10px]
+                        esktop:w-[258px] laptop:w-[230px] pc:w-[200px] w-[200px]"
                         >
-                        <div class="flex flex-col justify-start">
-                            <p class="text-11 text-white">à partir de</p>
-                            <h2 class="desktop:text-38 laptop:text-28 pc:text-26 text-24 text-white font-bold leading-10">XXX€/mois*</h2>
-                        </div>
                         <div 
-                            class="absolute bottom-[-13px] right-[-10px] h-[84px] border-darkBlue border-2 border-solid -z-10
-                            desktop:w-[258px] laptop:w-[230px] pc:w-[200px] w-[200px]">
+                            class="flex items-center justify-center h-[84px] bg-red absolute top-[-13px] left-[-10px] cursor-pointer hover:top-0 hover:left-0 transition-all
+                            desktop:w-[258px] laptop:w-[230px] pc:w-[200px] w-[200px] mb-[40px]"
+                            >
+                            <div class="flex flex-col justify-start">
+                                <p class="text-11 text-white">à partir de</p>
+                                <h2 class="desktop:text-38 laptop:text-28 pc:text-26 text-24 text-white font-bold leading-10">XXX€/mois*</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,11 +60,11 @@
             <div 
                 id="homeBg" 
                 class="relative 
-                desktop:w-[1030px] laptop:w-[844px] w-full pc:min-w-[600px] tablet:min-w-[530px] desktop:h-[619px] laptop:h-[550px] pc:h-[480px] tablet:h-[550px]"
+                desktop:w-[1030px] laptop:w-[844px] w-full pc:min-w-[600px] tablet:min-w-[530px] min-w-[330px] desktop:h-[619px] laptop:h-[550px] pc:h-[480px] tablet:h-[550px] h-[350px]"
                 >
                 <div 
                     class="absolute px-[18px] flex items-center justify-center h-[34px] bg-red text-white font-bold z-10
-                    laptop:text-12 pc:text-10
+                    laptop:text-12 pc:text-10 text-10
                     desktop:right-[100px] laptop:top-[33px] top-[15px] laptop:right-[30px] right-[15px]"
                     >
                     TRAVAUX EN COURS
@@ -66,8 +74,8 @@
                     desktop:w-[301px] desktop:p-[0_0] laptop:pl-[13px] laptop:pr-[16px] pl-[11px] pr-[14px]
                     laptop:bottom-6 pc:bottom-4 bottom-4 laptop:left-[18px] pc:left-[14px] left-[14px]"
                     >
-                    <img src="Sources/timer.svg" alt="timer" class="laptop:w-[22px] laptop:h-[22px] w-[18px] h-[18px] text-white">
-                    <h3 class="desktop:text-18 laptop:text-16 tablet:text-12 text-white font-bold">Livraison 2<sup class="laptop:text-12 pc:text-10">ème</sup> trimestre 2022</h3>
+                    <img src="Sources/timer.svg" alt="timer" class="laptop:w-[22px] laptop:h-[22px] tablet:w-[18px] tableth-[18px] w-[16px] h-[16px] text-white">
+                    <h3 class="desktop:text-18 laptop:text-16 tablet:text-12 text-11 text-white font-bold">Livraison 2<sup class="laptop:text-12 pc:text-10">ème</sup> trimestre 2022</h3>
                 </div>
 
                 <!-- CTA Forn -->
@@ -120,7 +128,7 @@
                             <a href="#" class="underline">Mention sur la protection des données personnelles.</a>
                         </p>
                     </div>
-                    <div class="flex flex-row justify-center items-center w-full h-14 my-4 gap-[31px] bg-red">
+                    <div class="flex flex-row justify-center items-center w-full h-14 my-4 gap-[31px] bg-red hover:bg-darkBlue cursor-pointer duration-500 transition-all">
                         <div class="flex justify-center items-center w-[30px] h-[30px] py-2 rounded-full bg-white">
                             <img src="Sources/arrow.svg" alt="send a message" class="w-full h-full">
                         </div>
@@ -140,7 +148,7 @@
         <div class="flex flex-col justify-end">
             <h2 
                 class="text-darkBlue leading-tight
-                desktop:text-36 laptop:text-32 tablet:text-28 desktop:w-[760px] laptop:w-[680px] pc:w-[600px] tablet:w-full pc:px-0 tablet:px-[30px] px-[15px]"
+                desktop:text-36 laptop:text-32 tablet:text-28 text-24 desktop:w-[760px] laptop:w-[680px] pc:w-[600px] tablet:w-full pc:px-0 tablet:px-[30px] px-[15px]"
                 >
                 Villa Coquetiers : Un emplacement tranquille, pratique et accessible à 300m* du tramway
             </h2>
@@ -186,18 +194,18 @@
     </section>
 
     <!-- CTA section -->
-    <section class="flex pc:hidden flex-col items-center bg-blue pb-5 text-white w-[444px] pt-10 px-12 mb-[80px]">
-        <h2 class="text-28 text-center font-bold w-[300px] mb-[31px]">Devenez Propriétaire à Villemomble</h2>
+    <section class="flex pc:hidden flex-col items-center bg-blue pb-5 text-white tablet:w-[444px] w-full max-w-[444px] pt-10 tablet:px-12 px-6 mb-[80px]">
+        <h2 class="tablet:text-28 text-22 text-center font-bold w-[300px] mb-[31px]">Devenez Propriétaire à Villemomble</h2>
         <div class="flex flex-row gap-[19px]">
-            <h3 class="text-16 font-semibold">Civilité*</h3>
-            <div class="flex flex-row gap-7">
+            <h3 class="tablet:text-16 text-13 font-semibold">Civilité*</h3>
+            <div class="flex flex-row tablet:gap-7 gap-4">
                 <span class="flex flex-row items-center gap-[6px]">
                     <input type="radio" name="radio" id="madame" class="w-[17px] h-[17px]">
-                    <label for="madame" class="text-16 font-semibold">Madame</label>
+                    <label for="madame" class="tablet:text-16 text-13 font-semibold">Madame</label>
                 </span>
                 <span class="flex flex-row items-center gap-[6px]">
                     <input type="radio" name="radio" id="monsieur" class="w-[17px] h-[17px]" checked>
-                    <label for="monsieur" class="text-16 font-semibold">Monsieur</label>
+                    <label for="monsieur" class="tablet:text-16 text-13 font-semibold">Monsieur</label>
                 </span>
             </div>
         </div>
@@ -211,15 +219,15 @@
             <input type="email" name="email" id="email" placeholder="E-mail*" class="w-full h-[43px] input-form">
         </div>
         <div class="flex flex-row gap-[19px]">
-            <h3 class="text-16 font-semibold">Je souhaite*</h3>
-            <div class="flex flex-row gap-7">
+            <h3 class="tablet:text-16 text-13 font-semibold">Je souhaite*</h3>
+            <div class="flex flex-row tablet:gap-7 gap-4">
                 <span class="flex flex-row items-center gap-[6px]">
                     <input type="radio" name="radioSouhait" id="habiter" class="w-[17px] h-[17px]">
-                    <label for="habiter" class="text-16 font-semibold">Habiter</label>
+                    <label for="habiter" class="tablet:text-16 text-13 font-semibold">Habiter</label>
                 </span>
                 <span class="flex flex-row items-center gap-[6px]">
                     <input type="radio" name="radioSouhait" id="investir" class="w-[17px] h-[17px]" checked>
-                    <label for="investir" class="text-16 font-semibold">Investir</label>
+                    <label for="investir" class="tablet:text-16 text-13 font-semibold">Investir</label>
                 </span>
             </div>
         </div>
@@ -231,11 +239,11 @@
                 <a href="#" class="underline">Mention sur la protection des données personnelles.</a>
             </p>
         </div>
-        <div class="flex flex-row justify-center items-center w-full h-14 my-4 gap-[31px] bg-red">
+        <div class="flex flex-row justify-center items-center w-full h-14 my-4 tablet:gap-[31px] gap-4 bg-red hover:bg-darkBlue cursor-pointer duration-500 transition-all">
             <div class="flex justify-center items-center w-[30px] h-[30px] py-2 rounded-full bg-white">
                 <img src="Sources/arrow.svg" alt="send a message" class="w-full h-full">
             </div>
-            <p class="text-16 font-semibold">ENVOYER MON MESSAGE</p>
+            <p class="tablet:text-16 text-14 font-semibold">ENVOYER MON MESSAGE</p>
         </div>
         <span class="text-10 ml-5 self-start">* Champs obligatoires</span>
     </section>
@@ -246,7 +254,7 @@
             <img src="Sources/visuel.jpg" alt="house visuel" class="desktop:w-[754px] laptop:w-[622px] pc:w-[510px] w-[calc(100%-30px)] desktop:h-[416px] laptop:h-[390px] pc:h-[315px] h-full">
             <div 
                 class="absolute bottom-[-30px] bg-darkBlue -z-10
-                desktop:w-[754px] laptop:w-[622px] pc:w-[510px] desktop:h-[416px] laptop:h-[390px] pc:h-[315px] w-[calc(100%-30px)] h-full pc:right-[-30px] right-[-1px]"
+                desktop:w-[754px] laptop:w-[622px] pc:w-[510px] desktop:h-[416px] laptop:h-[390px] pc:h-[315px] w-[calc(100%-30px)] h-full pc:right-[-30px] tablet:right-[-1px] right-[10px]"
                 >
             </div>
         </div>
