@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    border: none;
+}
+
+section {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+}
+
+#homeBg {
+    background-image: url(/public/Sources/perspective.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+input[type='radio']:before {
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    top: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid white;
+}
+
+input[type='radio']:checked:before {
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    top: -1px;
+    position: relative;
+    background-color: #d51125;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid white;
+}
+
+@layer components {
+    .input-form {
+        @apply px-[18px] py-[15px] placeholder-darkBlue desktop:text-16 laptop:text-[15px] text-darkBlue;
+    }
+    .check {
+        @apply flex justify-center items-center rounded-full w-4 h-4 bg-red;
+    }
+}
