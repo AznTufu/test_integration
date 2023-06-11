@@ -52,7 +52,7 @@ input[type='radio']:checked:before {
 
 @layer components {
     .input-form {
-        @apply px-[18px] py-[15px] placeholder-darkBlue desktop:text-16 laptop:text-[15px] text-darkBlue;
+        @apply px-[18px] py-[15px] placeholder-darkBlue desktop:text-16 laptop:text-[15px] pc:text-14 text-darkBlue;
     }
     .check {
         @apply flex justify-center items-center rounded-full w-4 h-4 bg-red;
